@@ -1,6 +1,10 @@
 ![E-commerce Dashboard](./public/ecommerce_dash.png)
 
+
+
 # E-commerce Dashboard
+
+- [Live Demo](https://ecommerce-dash-psi.vercel.app/)
 
 The E-commerce Dashboard is a web application built with React and TypeScript, using Vite for development. It provides a comprehensive interface for managing various aspects of an e-commerce business.
 
@@ -27,5 +31,7 @@ The E-commerce Dashboard is a web application built with React and TypeScript, u
 ## Contributing
 - Fork the repository and create a new branch for your feature or bug fix.
 - Submit a pull request for review.
+
+
 
 
