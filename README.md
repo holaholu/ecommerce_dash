@@ -8,7 +8,6 @@ The E-commerce Dashboard is a web application built with React and TypeScript, u
 - **Dashboard**: A central hub for viewing key metrics and insights.
 - **Products Management**: Interface for managing product listings.
 - **Orders Management**: Tools for tracking and managing customer orders.
-- **Analytics**: Visualizations and reports on sales and customer data.
 - **Customers Management**: Manage customer information and interactions.
 
 ## Tech Stack

@@ -12,7 +12,7 @@ import customTheme from './theme';
 const App: React.FC = () => {
   return (
     <ConfigProvider theme={customTheme}>
-      <Router>
+      <Router basename="/ecommerce_dash">
         <MainLayout>
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />

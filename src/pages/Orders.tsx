@@ -67,7 +67,6 @@ const initialOrdersData: OrderType[] = [
 ];
 
 const Orders: React.FC = () => {
-  const [selectedStatus, setSelectedStatus] = useState<string>('all');
   const [orders, setOrders] = useState<OrderType[]>(initialOrdersData);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [editingOrder, setEditingOrder] = useState<OrderType | null>(null);
@@ -208,7 +207,7 @@ const Orders: React.FC = () => {
   };
 
   const CustomizedContent = (props: any) => {
-    const { root, depth, x, y, width, height, index, colors, name, value } = props;
+    const { depth, x, y, width, height, index, colors, name } = props;
     return (
       <g>
         <rect
@@ -291,7 +290,6 @@ const Orders: React.FC = () => {
               <Select
                 defaultValue="all"
                 style={{ width: 120 }}
-                onChange={value => setSelectedStatus(value)}
               >
                 <Option value="all">All Status</Option>
                 <Option value="completed">Completed</Option>

@@ -1,7 +1,7 @@
-import { theme } from 'antd';
+// import { theme } from 'antd';
+import type { ThemeConfig } from 'antd';
 
-export const customTheme = {
-  algorithm: theme.defaultAlgorithm,
+export const customTheme: ThemeConfig = {
   token: {
     colorPrimary: '#2c5282',
     colorSuccess: '#2f855a',
@@ -21,9 +21,6 @@ export const customTheme = {
   },
   components: {
     Layout: {
-      bodyBackground: '#f0f2f5',
-      headerBackground: '#ffffff',
-      headerBg: '#ffffff',
       bodyBg: '#f7fafc',
       siderBg: '#1a365d',
     },
@@ -31,9 +28,6 @@ export const customTheme = {
       borderRadiusLG: 12,
       boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
       paddingLG: 24,
-      paddingMD: 16,
-      paddingSM: 12,
-      marginBottom: 16,
     },
     Menu: {
       itemSelectedBg: '#ebf8ff',
@@ -44,20 +38,14 @@ export const customTheme = {
       darkItemSelectedBg: '#2c5282',
       darkItemHoverBg: '#2b6cb0',
       darkItemColor: '#e2e8f0',
-      collapsedWidth: 80,
-      itemHeight: 48,
     },
     Button: {
       borderRadius: 8,
       controlHeight: 40,
-      controlHeightLG: 48,
-      controlHeightSM: 32,
     },
     Input: {
       borderRadius: 8,
       controlHeight: 40,
-      controlHeightLG: 48,
-      controlHeightSM: 32,
     },
     Table: {
       borderRadius: 8,
@@ -72,9 +60,7 @@ export const customTheme = {
     },
     Tag: {
       borderRadius: 6,
-      padding: '4px 8px',
       fontSize: 12,
-      fontSizeLG: 14,
     },
     Select: {
       borderRadius: 8,
@@ -97,8 +83,6 @@ export const customTheme = {
     },
     Form: {
       labelFontSize: 14,
-      labelFontSizeLG: 16,
-      labelFontSizeSM: 12,
     },
   },
 };

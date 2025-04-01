@@ -9,9 +9,15 @@ interface MainLayoutProps {
 }
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
+  // const [collapsed, setCollapsed] = React.useState(false);
+
+  const handleCollapse = () => {
+    // Collapse logic can be added here if needed
+  };
+
   return (
     <Layout style={{ minHeight: '100vh' }}>
-      <Sidebar />
+      <Sidebar onCollapse={handleCollapse} />
       <Layout style={{ marginLeft: 280, transition: 'all 0.2s' }}>
         <Header style={{
           padding: '0 24px',

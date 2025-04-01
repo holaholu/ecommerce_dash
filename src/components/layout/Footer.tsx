@@ -7,7 +7,7 @@ import {
 } from '@ant-design/icons';
 
 const { Footer: AntFooter } = Layout;
-const { Text, Title } = Typography;
+const { Text } = Typography;
 
 const techStack = [
   { 

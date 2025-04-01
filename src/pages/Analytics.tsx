@@ -94,7 +94,7 @@ const Analytics: React.FC = () => {
                     dataKey="value"
                     label
                   >
-                    {channelData.map((entry, index) => (
+                    {channelData.map((_, index) => (
                       <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
