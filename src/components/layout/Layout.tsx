@@ -33,6 +33,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     if (path === '/products') return { theme: pageThemes.products, title: 'Products' };
     if (path === '/customers') return { theme: pageThemes.customers, title: 'Customers' };
     return { theme: pageThemes.dashboard, title: 'Dashboard' };
+    
   };
 
   const { theme: currentTheme, title: pageTitle } = getPageInfo();
